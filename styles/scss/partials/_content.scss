@@ -1,0 +1,76 @@
+body {
+  background-color: $light-grey;
+  color: $darkest;
+  font-family: $font-sans;
+  letter-spacing: 0.0625em;
+  line-spacing: 1.5em;
+  margin: 0;
+  padding: 0;
+}
+
+.main-header {
+  background-color: $darker;
+  color: $light-grey;
+  margin: $centerize;
+  padding: 40px;
+  text-align: center;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 24px;
+  text-align: center;
+  width: 960px;
+}
+
+.box {
+  border: 1px solid $darker;
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
+  width: 150px;
+  &-header {
+    background-color: $darker;
+    color: $light-grey;
+    padding: 10px;
+  }
+  &-content {
+    padding: 10px;
+  }
+}
+
+.main-footer {
+  border-top: 1px solid $darkest;
+  padding: 40px;
+  text-align: center;
+}
+
+// non important shit
+hr {
+  max-width: 960px;
+  width: 960px;
+}
+
+.paragraphia {
+  text-align: justify;
+}
+
+.img {
+  max-width: 20%;
+  height: auto;
+  display: inline-block;
+}
+
+.btn {
+  background-color: $lighter;
+  border: 0;
+  color: $darkest;
+  cursor: pointer;
+  display: block;
+  margin: 10px;
+  padding: 6px 8px;
+  &:hover {
+    background-color: darken($lighter, 4%);
+  }
+}
