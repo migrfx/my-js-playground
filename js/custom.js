@@ -1,5 +1,1 @@
-$(document).ready(function(){
-	
-
-
-});
+// this is for jQuery $(document).ready(function(){});
